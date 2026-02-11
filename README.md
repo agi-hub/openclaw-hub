@@ -1,8 +1,20 @@
-# OpenClaw Open Source Projects Classification Report
+# OpenClaw Hub
 
+Welcome to OpenClaw Hub - your comprehensive resource center for everything related to OpenClaw, the revolutionary open-source personal AI assistant platform. This hub serves as a central repository for the OpenClaw ecosystem, providing curated collections of open source projects, in-depth research reports, commercial analyses, technical documentation, and the latest news updates.
+
+OpenClaw represents a paradigm shift in personal AI assistants, offering a "local-first, privacy-controlled" approach that truly acts on behalf of users rather than merely answering questions. Whether you're a developer looking to contribute to the ecosystem, an enterprise evaluating AI solutions, or an enthusiast exploring the possibilities of autonomous AI agents, this hub provides the resources you need to understand, implement, and leverage OpenClaw's powerful capabilities.
+
+**What you'll find here:**
+- **Open Source Projects**: Comprehensive categorization of 200+ projects spanning 30+ functional categories
+- **Research Reports**: Technical analyses, ecosystem studies, and architectural deep-dives
+- **Commercial Reports**: Business insights, market analyses, and enterprise adoption guides
+- **Community Resources**: Skills, tutorials, deployment guides, and best practices
+- **Latest Updates**: News, announcements, and ecosystem developments
+
+# Community Resources Hub
 ## Overview
 
-This report provides a detailed classification of open source projects within the OpenClaw ecosystem, covering 30 different functional categories. OpenClaw is an open source personal AI assistant platform that supports multiple operating systems and platforms, adopting a local-first, privacy-controlled design philosophy. It achieves full PC automation through natural language commands, truly acting on behalf of users rather than merely answering questions.
+This hub provides a detailed classification of open source projects within the OpenClaw ecosystem, covering 30 different functional categories. OpenClaw is an open source personal AI assistant platform that supports multiple operating systems and platforms, adopting a local-first, privacy-controlled design philosophy. It achieves full PC automation through natural language commands, truly acting on behalf of users rather than merely answering questions.
 
 ---
 
