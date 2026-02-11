@@ -1,0 +1,33 @@
+graph LR
+    A[用户指令<br/>自然语言] --> B[感知层<br/>传感器数据处理]
+    B --> C[决策层<br/>OpenClaw智能体]
+    C --> D[执行层<br/>硬件控制]
+    D --> E[物理世界<br/>环境与物体]
+    E --> B
+    
+    B1[视觉感知<br/>物体识别/场景理解] --> B
+    B2[语音感知<br/>语音识别/意图理解] --> B
+    B3[触觉感知<br/>力反馈/碰撞检测] --> B
+    
+    C1[任务理解<br/>LLM推理] --> C
+    C2[任务规划<br/>目标分解] --> C
+    C3[记忆检索<br/>上下文管理] --> C
+    
+    D1[移动控制<br/>路径规划/避障] --> D
+    D2[抓取操作<br/>机械臂控制] --> D
+    D3[精细操作<br/>夹爪/工具使用] --> D
+    
+    style A fill:#E3F2FD
+    style B fill:#FFF3E0
+    style C fill:#2196F3
+    style D fill:#4CAF50
+    style E fill:#F5F5F5
+    style B1 fill:#FFE0B2
+    style B2 fill:#FFE0B2
+    style B3 fill:#FFE0B2
+    style C1 fill:#BBDEFB
+    style C2 fill:#BBDEFB
+    style C3 fill:#BBDEFB
+    style D1 fill:#C8E6C9
+    style D2 fill:#C8E6C9
+    style D3 fill:#C8E6C9

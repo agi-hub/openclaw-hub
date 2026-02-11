@@ -1,0 +1,12 @@
+graph LR
+    A[用户即时通讯平台] --> B[Channel适配器]
+    B --> C[Gateway网关]
+    C --> D[Agent智能体]
+    D --> E[Memory记忆]
+    D --> F[Skills技能]
+    F --> G[外部服务/API]
+    G --> F
+    F --> D
+    D --> C
+    C --> B
+    B --> A

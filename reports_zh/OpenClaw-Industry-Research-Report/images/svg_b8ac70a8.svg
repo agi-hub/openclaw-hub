@@ -1,0 +1,74 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" tabindex="0" style="max-width: 90%; max-height: 90%; user-select: none;">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" style="" stroke="black" stroke-width="1" id="rect-1770793828563" x="0" y="0"></rect>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Noto Sans CJK SC, Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a" style="" stroke="none" stroke-width="0">OpenClaw Skills生态系统</text>
+  
+  <!-- Central Hub -->
+  <circle cx="450" cy="300" r="80" fill="#2196F3" stroke="#1976D2" stroke-width="3" style=""></circle>
+  <text x="450" y="295" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">ClawHub</text>
+  <text x="450" y="315" font-family="Noto Sans CJK SC, Arial" font-size="14" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">Skills市场</text>
+  <text x="450" y="335" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">3498+ Skills</text>
+  
+  <!-- Category 1: Office Automation -->
+  <rect x="80" y="80" width="160" height="100" rx="10" fill="#4CAF50" stroke="#388E3C" stroke-width="2" style=""></rect>
+  <text x="160" y="110" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">办公自动化</text>
+  <text x="160" y="135" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">邮件处理</text>
+  <text x="160" y="155" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">日程管理</text>
+  <line x1="240" y1="130" x2="370" y2="270" stroke="#4CAF50" stroke-width="2" fill="none" style=""></line>
+  
+  <!-- Category 2: Social Media -->
+  <rect x="660" y="80" width="160" height="100" rx="10" fill="#9C27B0" stroke="#7B1FA2" stroke-width="2" style=""></rect>
+  <text x="740" y="110" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">社交媒体</text>
+  <text x="740" y="135" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">内容发布</text>
+  <text x="740" y="155" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">数据分析</text>
+  <line x1="660" y1="130" x2="530" y2="270" stroke="#9C27B0" stroke-width="2" fill="none" style=""></line>
+  
+  <!-- Category 3: Development Tools -->
+  <rect x="80" y="250" width="160" height="100" rx="10" fill="#FF9800" stroke="#F57C00" stroke-width="2" style=""></rect>
+  <text x="160" y="280" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">开发工具</text>
+  <text x="160" y="305" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">代码生成</text>
+  <text x="160" y="325" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">API调试</text>
+  <line x1="240" y1="300" x2="370" y2="300" stroke="#FF9800" stroke-width="2" fill="none" style=""></line>
+  
+  <!-- Category 4: Data Analysis -->
+  <rect x="660" y="250" width="160" height="100" rx="10" fill="#F44336" stroke="#D32F2F" stroke-width="2" style=""></rect>
+  <text x="740" y="280" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">数据分析</text>
+  <text x="740" y="305" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">数据可视化</text>
+  <text x="740" y="325" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">报表生成</text>
+  <line x1="660" y1="300" x2="530" y2="300" stroke="#F44336" stroke-width="2" fill="none" style=""></line>
+  
+  <!-- Category 5: Crypto -->
+  <rect x="80" y="420" width="160" height="100" rx="10" fill="#FFC107" stroke="#FFA000" stroke-width="2" style=""></rect>
+  <text x="160" y="450" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">加密货币</text>
+  <text x="160" y="475" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">钱包管理</text>
+  <text x="160" y="495" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">价格追踪</text>
+  <line x1="240" y1="470" x2="370" y2="330" stroke="#FFC107" stroke-width="2" fill="none" style=""></line>
+  
+  <!-- Category 6: Browser Automation -->
+  <rect x="660" y="420" width="160" height="100" rx="10" fill="#00BCD4" stroke="#0097A7" stroke-width="2" style=""></rect>
+  <text x="740" y="450" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">浏览器自动化</text>
+  <text x="740" y="475" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">网页抓取</text>
+  <text x="740" y="495" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">表单填写</text>
+  <line x1="660" y1="470" x2="530" y2="330" stroke="#00BCD4" stroke-width="2" fill="none" style=""></line>
+  
+  <!-- User Instances -->
+  <rect x="350" y="520" width="200" height="60" rx="10" fill="#607D8B" stroke="#455A64" stroke-width="2" style=""></rect>
+  <text x="450" y="545" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">用户OpenClaw实例</text>
+  <text x="450" y="565" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white" style="" stroke="none" stroke-width="0">按需安装Skills</text>
+  <line x1="450" y1="520" x2="450" y2="380" stroke="#607D8B" stroke-width="3" fill="none" style=""></line>
+  
+  <!-- Data flow arrows -->
+  <polygon points="365,268 375,272 365,276" fill="#4CAF50" style="" stroke="black" stroke-width="1"></polygon>
+  <polygon points="535,268 525,272 535,276" fill="#9C27B0" style="" stroke="black" stroke-width="1"></polygon>
+  <polygon points="365,298 375,302 365,306" fill="#FF9800" style="" stroke="black" stroke-width="1"></polygon>
+  <polygon points="535,298 525,302 535,306" fill="#F44336" style="" stroke="black" stroke-width="1"></polygon>
+  <polygon points="365,328 375,332 365,336" fill="#FFC107" style="" stroke="black" stroke-width="1"></polygon>
+  <polygon points="535,328 525,332 535,336" fill="#00BCD4" style="" stroke="black" stroke-width="1"></polygon>
+  <polygon points="447,380 453,380 450,385" fill="#607D8B" style="" stroke="black" stroke-width="1"></polygon>
+  
+  <!-- Legend -->
+  <rect x="302" y="68" width="300" height="25" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1" style="" id="rect-1770793825531"></rect>
+  <text x="447" y="86" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="#666" style="" stroke="none" stroke-width="0">箭头表示Skills的发布和安装流向</text>
+</svg>

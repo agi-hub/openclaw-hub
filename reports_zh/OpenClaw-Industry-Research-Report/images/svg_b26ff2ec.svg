@@ -1,0 +1,62 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Noto Sans CJK SC, Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#1a1a1a">全球边缘计算市场规模预测 (2020-2030)</text>
+  
+  <!-- Chart area -->
+  <rect x="80" y="80" width="640" height="350" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="80" y1="430" x2="720" y2="430" stroke="#333" stroke-width="2"/>
+  <line x1="80" y1="342.5" x2="720" y2="342.5" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="80" y1="255" x2="720" y2="255" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="80" y1="167.5" x2="720" y2="167.5" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="80" y1="80" x2="720" y2="80" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Y-axis labels -->
+  <text x="70" y="435" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="end" fill="#666">0</text>
+  <text x="70" y="347" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="end" fill="#666">1000</text>
+  <text x="70" y="260" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="end" fill="#666">2000</text>
+  <text x="70" y="172" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="end" fill="#666">3000</text>
+  <text x="70" y="85" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="end" fill="#666">4000+</text>
+  
+  <!-- Y-axis title -->
+  <text x="30" y="255" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#333" transform="rotate(-90, 30, 255)">市场规模 (亿美元)</text>
+  
+  <!-- Data bars -->
+  <!-- 2020: 90亿美元 -->
+  <rect x="120" y="422" width="60" height="8" fill="#4CAF50"/>
+  <text x="150" y="418" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">90</text>
+  
+  <!-- 2025: 预测约1100亿美元 -->
+  <rect x="280" y="334" width="60" height="96" fill="#66BB6A"/>
+  <text x="310" y="330" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">1100</text>
+  
+  <!-- 2030: 4450亿美元 -->
+  <rect x="440" y="80" width="60" height="350" fill="#81C784"/>
+  <text x="470" y="76" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">4450</text>
+  
+  <!-- X-axis labels -->
+  <text x="150" y="455" font-family="Noto Sans CJK SC, Arial" font-size="14" text-anchor="middle" fill="#333">2020</text>
+  <text x="310" y="455" font-family="Noto Sans CJK SC, Arial" font-size="14" text-anchor="middle" fill="#333">2025</text>
+  <text x="470" y="455" font-family="Noto Sans CJK SC, Arial" font-size="14" text-anchor="middle" fill="#333">2030</text>
+  
+  <!-- Growth rate arrow -->
+  <path d="M 190 410 Q 280 350 370 250" fill="none" stroke="#FF5722" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="365,245 375,255 360,260" fill="#FF5722"/>
+  <text x="280" y="320" font-family="Noto Sans CJK SC, Arial" font-size="13" font-weight="bold" fill="#FF5722">CAGR: 48%</text>
+  
+  <!-- Legend -->
+  <rect x="580" y="100" width="120" height="80" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <rect x="595" y="115" width="15" height="15" fill="#4CAF50"/>
+  <text x="620" y="127" font-family="Noto Sans CJK SC, Arial" font-size="12" fill="#333">2020年实际</text>
+  <rect x="595" y="140" width="15" height="15" fill="#66BB6A"/>
+  <text x="620" y="152" font-family="Noto Sans CJK SC, Arial" font-size="12" fill="#333">2025年预测</text>
+  <rect x="595" y="165" width="15" height="15" fill="#81C784"/>
+  <text x="620" y="177" font-family="Noto Sans CJK SC, Arial" font-size="12" fill="#333">2030年预测</text>
+  
+  <!-- Data source -->
+  <text x="720" y="490" font-family="Noto Sans CJK SC, Arial" font-size="10" text-anchor="end" fill="#999">数据来源: STL Partners</text>
+</svg>

@@ -1,0 +1,75 @@
+<svg width="900" height="550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="550" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Noto Sans CJK SC, Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a">全球AI智能体市场规模预测 (2024-2030)</text>
+  
+  <!-- Chart area -->
+  <rect x="100" y="80" width="700" height="380" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <line x1="100" y1="460" x2="800" y2="460" stroke="#333" stroke-width="2"/>
+  
+  <!-- Y-axis labels and grid -->
+  <line x1="100" y1="350" x2="800" y2="350" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="90" y="355" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="end" fill="#666">100</text>
+  
+  <line x1="100" y1="240" x2="800" y2="240" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="90" y="245" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="end" fill="#666">200</text>
+  
+  <line x1="100" y1="130" x2="800" y2="130" stroke="#e0e0e0" stroke-width="1" stroke-dasharray="5,5"/>
+  <text x="90" y="135" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="end" fill="#666">300</text>
+  
+  <text x="50" y="270" font-family="Noto Sans CJK SC, Arial" font-size="13" font-weight="bold" fill="#333" transform="rotate(-90, 50, 270)">市场规模 (亿美元)</text>
+  
+  <!-- Data bars -->
+  <!-- 2024: 5.1B -->
+  <rect x="140" y="443" width="60" height="17" fill="#2196F3"/>
+  <text x="170" y="438" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">5.1</text>
+  
+  <!-- 2025: 12B -->
+  <rect x="240" y="433" width="60" height="27" fill="#2196F3"/>
+  <text x="270" y="428" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">12</text>
+  
+  <!-- 2026: 28B -->
+  <rect x="340" y="410" width="60" height="50" fill="#2196F3"/>
+  <text x="370" y="405" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">28</text>
+  
+  <!-- 2027: 65B -->
+  <rect x="440" y="365" width="60" height="95" fill="#2196F3"/>
+  <text x="470" y="360" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">65</text>
+  
+  <!-- 2028: 150B -->
+  <rect x="540" y="285" width="60" height="175" fill="#2196F3"/>
+  <text x="570" y="280" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">150</text>
+  
+  <!-- 2029: 280B -->
+  <rect x="640" y="195" width="60" height="265" fill="#2196F3"/>
+  <text x="670" y="190" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">280</text>
+  
+  <!-- 2030: 471B -->
+  <rect x="740" y="120" width="60" height="340" fill="#2196F3"/>
+  <text x="770" y="115" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#333">471</text>
+  
+  <!-- X-axis labels -->
+  <text x="170" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2024</text>
+  <text x="270" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2025</text>
+  <text x="370" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2026</text>
+  <text x="470" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2027</text>
+  <text x="570" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2028</text>
+  <text x="670" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2029</text>
+  <text x="770" y="480" font-family="Noto Sans CJK SC, Arial" font-size="13" text-anchor="middle" fill="#333">2030</text>
+  
+  <!-- Growth rate arrow -->
+  <path d="M 200 440 Q 450 350 770 120" fill="none" stroke="#FF5722" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="765,115 775,125 760,130" fill="#FF5722"/>
+  <text x="450" y="320" font-family="Noto Sans CJK SC, Arial" font-size="15" font-weight="bold" fill="#FF5722">CAGR: 44.5%</text>
+  
+  <!-- Segmentation -->
+  <rect x="100" y="500" width="700" height="40" rx="5" fill="#E3F2FD" stroke="#1976D2" stroke-width="1"/>
+  <text x="450" y="525" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#1976D2">企业级应用 45% | 个人消费 30% | 工业/物联网 25%</text>
+  
+  <!-- Data source -->
+  <text x="850" y="545" font-family="Noto Sans CJK SC, Arial" font-size="10" text-anchor="end" fill="#999">数据来源: MarketsandMarkets AI Agent Market Report 2024</text>
+</svg>

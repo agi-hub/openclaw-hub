@@ -1,0 +1,73 @@
+graph TB
+    subgraph 交互接入层
+        A1[WhatsApp]
+        A2[Telegram]
+        A3[Discord]
+        A4[飞书/钉钉]
+        A5[Web界面]
+    end
+    
+    subgraph 能力扩展层
+        B1[邮件Skill]
+        B2[日历Skill]
+        B3[文件Skill]
+        B4[浏览器Skill]
+        B5[自定义Skills]
+    end
+    
+    subgraph 核心服务层
+        C1[Gateway网关]
+        C2[Agent Runner]
+        C3[Memory子系统]
+        C4[Task Scheduler]
+        C5[LLM接口]
+    end
+    
+    subgraph 基础设施层
+        D1[Docker容器]
+        D2[向量数据库]
+        D3[文件系统]
+        D4[操作系统]
+    end
+    
+    A1 --> C1
+    A2 --> C1
+    A3 --> C1
+    A4 --> C1
+    A5 --> C1
+    
+    C1 --> C2
+    C2 --> C3
+    C2 --> C4
+    C2 --> C5
+    
+    C4 --> B1
+    C4 --> B2
+    C4 --> B3
+    C4 --> B4
+    C4 --> B5
+    
+    C2 --> D1
+    C3 --> D2
+    C2 --> D3
+    D1 --> D4
+    
+    style A1 fill:#E3F2FD
+    style A2 fill:#E3F2FD
+    style A3 fill:#E3F2FD
+    style A4 fill:#E3F2FD
+    style A5 fill:#E3F2FD
+    style B1 fill:#FFF3E0
+    style B2 fill:#FFF3E0
+    style B3 fill:#FFF3E0
+    style B4 fill:#FFF3E0
+    style B5 fill:#FFF3E0
+    style C1 fill:#F3E5F5
+    style C2 fill:#F3E5F5
+    style C3 fill:#F3E5F5
+    style C4 fill:#F3E5F5
+    style C5 fill:#F3E5F5
+    style D1 fill:#E8F5E9
+    style D2 fill:#E8F5E9
+    style D3 fill:#E8F5E9
+    style D4 fill:#E8F5E9

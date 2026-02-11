@@ -1,0 +1,65 @@
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Noto Sans CJK SC, Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a">OpenClaw生态系统商业模式</text>
+  
+  <!-- Center Platform -->
+  <rect x="350" y="250" width="200" height="100" rx="15" fill="#2196F3" stroke="#1976D2" stroke-width="3"/>
+  <text x="450" y="290" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">OpenClaw</text>
+  <text x="450" y="310" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">核心平台</text>
+  <text x="450" y="335" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">开源免费</text>
+  
+  <!-- Skills Marketplace -->
+  <rect x="80" y="120" width="200" height="120" rx="10" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <text x="180" y="155" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Skills市场</text>
+  <text x="180" y="180" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 付费下载</text>
+  <text x="180" y="200" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 订阅服务</text>
+  <text x="180" y="220" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 平台抽成</text>
+  
+  <!-- Enterprise Services -->
+  <rect x="620" y="120" width="200" height="120" rx="10" fill="#9C27B0" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="720" y="155" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">企业服务</text>
+  <text x="720" y="180" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 技术咨询</text>
+  <text x="720" y="200" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 定制开发</text>
+  <text x="720" y="220" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 托管运维</text>
+  
+  <!-- Hardware Bundle -->
+  <rect x="80" y="380" width="200" height="120" rx="10" fill="#FF9800" stroke="#F57C00" stroke-width="2"/>
+  <text x="180" y="415" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">硬件捆绑</text>
+  <text x="180" y="440" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 预装设备</text>
+  <text x="180" y="460" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 专用硬件</text>
+  <text x="180" y="480" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 软硬一体</text>
+  
+  <!-- Training & Certification -->
+  <rect x="620" y="380" width="200" height="120" rx="10" fill="#F44336" stroke="#D32F2F" stroke-width="2"/>
+  <text x="720" y="415" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">培训认证</text>
+  <text x="720" y="440" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 在线课程</text>
+  <text x="720" y="460" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 认证考试</text>
+  <text x="720" y="480" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">• 企业培训</text>
+  
+  <!-- Connection lines -->
+  <path d="M 280 180 L 350 280" stroke="#4CAF50" stroke-width="3" fill="none"/>
+  <path d="M 620 180 L 550 280" stroke="#9C27B0" stroke-width="3" fill="none"/>
+  <path d="M 280 440 L 350 320" stroke="#FF9800" stroke-width="3" fill="none"/>
+  <path d="M 620 440 L 550 320" stroke="#F44336" stroke-width="3" fill="none"/>
+  
+  <!-- Data flow arrows -->
+  <polygon points="345,275 355,280 345,285" fill="#4CAF50"/>
+  <polygon points="555,275 545,280 555,285" fill="#9C27B0"/>
+  <polygon points="345,325 355,320 345,315" fill="#FF9800"/>
+  <polygon points="555,325 545,320 555,315" fill="#F44336"/>
+  
+  <!-- Value flow indicators -->
+  <rect x="300" y="550" width="300" height="30" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="450" y="570" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="#666">箭头表示价值流向：← 生态贡献 → 平台赋能</text>
+  
+  <!-- Revenue share -->
+  <rect x="300" y="50" width="300" height="60" rx="10" fill="white" stroke="#e0e0e0" stroke-width="2"/>
+  <text x="450" y="75" font-family="Noto Sans CJK SC, Arial" font-size="13" font-weight="bold" text-anchor="middle" fill="#333">典型收益分配</text>
+  <text x="450" y="95" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="#666">开发者 70% | 平台 30% (含基础设施、审核、推广)</text>
+  
+  <!-- Data source -->
+  <text x="850" y="590" font-family="Noto Sans CJK SC, Arial" font-size="10" text-anchor="end" fill="#999">数据来源: 综合行业分析及商业模式研究</text>
+</svg>

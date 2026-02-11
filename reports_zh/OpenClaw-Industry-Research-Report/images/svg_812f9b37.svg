@@ -1,0 +1,72 @@
+<svg width="900" height="550" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="900" height="550" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Noto Sans CJK SC, Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#1a1a1a">OpenClaw记忆系统架构</text>
+  
+  <!-- Central Agent -->
+  <circle cx="450" cy="275" r="60" fill="#2196F3" stroke="#1976D2" stroke-width="3"/>
+  <text x="450" y="270" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Agent</text>
+  <text x="450" y="290" font-family="Noto Sans CJK SC, Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Runner</text>
+  
+  <!-- Long-term Knowledge -->
+  <rect x="80" y="100" width="180" height="120" rx="10" fill="#4CAF50" stroke="#388E3C" stroke-width="2"/>
+  <text x="170" y="135" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">长期知识</text>
+  <text x="170" y="160" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">MEMORY.md</text>
+  <text x="170" y="180" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">用户偏好</text>
+  <text x="170" y="200" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">领域知识</text>
+  
+  <!-- Task Memory -->
+  <rect x="80" y="250" width="180" height="120" rx="10" fill="#FF9800" stroke="#F57C00" stroke-width="2"/>
+  <text x="170" y="285" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">任务记忆</text>
+  <text x="170" y="310" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">临时文件</text>
+  <text x="170" y="330" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">中间产物</text>
+  <text x="170" y="350" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">决策记录</text>
+  
+  <!-- Conversational History -->
+  <rect x="80" y="400" width="180" height="120" rx="10" fill="#9C27B0" stroke="#7B1FA2" stroke-width="2"/>
+  <text x="170" y="435" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">会话历史</text>
+  <text x="170" y="460" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">对话记录</text>
+  <text x="170" y="480" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">上下文信息</text>
+  
+  <!-- External Resources -->
+  <rect x="640" y="100" width="180" height="120" rx="10" fill="#F44336" stroke="#D32F2F" stroke-width="2"/>
+  <text x="730" y="135" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">外部资源</text>
+  <text x="730" y="160" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">技术文档</text>
+  <text x="730" y="180" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">API规范</text>
+  <text x="730" y="200" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">代码库</text>
+  
+  <!-- Vector Database -->
+  <rect x="640" y="250" width="180" height="120" rx="10" fill="#00BCD4" stroke="#0097A7" stroke-width="2"/>
+  <text x="730" y="285" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">向量数据库</text>
+  <text x="730" y="310" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">LanceDB</text>
+  <text x="730" y="330" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">语义检索</text>
+  <text x="730" y="350" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">快速索引</text>
+  
+  <!-- Daily Memory -->
+  <rect x="640" y="400" width="180" height="120" rx="10" fill="#795548" stroke="#5D4037" stroke-width="2"/>
+  <text x="730" y="435" font-family="Noto Sans CJK SC, Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="white">每日记忆</text>
+  <text x="730" y="460" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="white">memory/</text>
+  <text x="730" y="480" font-family="Noto Sans CJK SC, Arial" font-size="11" text-anchor="middle" fill="white">YYYY-MM-DD.md</text>
+  
+  <!-- Connection lines -->
+  <line x1="260" y1="160" x2="390" y2="250" stroke="#4CAF50" stroke-width="3" fill="none"/>
+  <line x1="260" y1="310" x2="390" y2="275" stroke="#FF9800" stroke-width="3" fill="none"/>
+  <line x1="260" y1="460" x2="390" y2="300" stroke="#9C27B0" stroke-width="3" fill="none"/>
+  <line x1="510" y1="250" x2="640" y2="160" stroke="#F44336" stroke-width="3" fill="none"/>
+  <line x1="510" y1="275" x2="640" y2="310" stroke="#00BCD4" stroke-width="3" fill="none"/>
+  <line x1="510" y1="300" x2="640" y2="460" stroke="#795548" stroke-width="3" fill="none"/>
+  
+  <!-- Data flow arrows -->
+  <polygon points="385,248 395,252 385,256" fill="#4CAF50"/>
+  <polygon points="385,273 395,277 385,281" fill="#FF9800"/>
+  <polygon points="385,298 395,302 385,306" fill="#9C27B0"/>
+  <polygon points="635,158 625,162 635,166" fill="#F44336"/>
+  <polygon points="635,308 625,312 635,316" fill="#00BCD4"/>
+  <polygon points="635,458 625,462 635,466" fill="#795548"/>
+  
+  <!-- Legend -->
+  <rect x="300" y="500" width="300" height="40" rx="5" fill="white" stroke="#e0e0e0" stroke-width="1"/>
+  <text x="450" y="525" font-family="Noto Sans CJK SC, Arial" font-size="12" text-anchor="middle" fill="#666">实线表示数据读写路径，箭头表示数据流向</text>
+</svg>

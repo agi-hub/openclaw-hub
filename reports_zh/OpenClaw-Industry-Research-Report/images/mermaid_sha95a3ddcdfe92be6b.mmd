@@ -1,0 +1,48 @@
+graph TB
+    subgraph 嵌入式设备
+        A[传感器层<br/>温度/湿度/运动/视觉]
+        B[执行器层<br/>电机/舵机/继电器]
+        C[通信层<br/>WiFi/BLE/Zigbee/LoRa]
+    end
+    
+    subgraph MimicClaw系统
+        D[硬件抽象层<br/>GPIO/I2C/SPI/UART驱动]
+        E[实时任务调度器<br/>优先级管理/延迟控制]
+        F[功耗管理模块<br/>动态调频/休眠唤醒]
+        G[可靠性保障<br/>看门狗/日志/版本管理]
+        H[NanoClaw核心<br/>轻量化推理引擎]
+        I[Skills执行环境<br/>任务隔离/资源限制]
+    end
+    
+    subgraph 云端服务
+        J[模型训练与优化]
+        K[远程监控与诊断]
+        L[OTA更新服务]
+    end
+    
+    A --> D
+    B --> D
+    C --> D
+    D --> H
+    E --> H
+    F --> H
+    G --> H
+    H --> I
+    I --> D
+    
+    H <--> J
+    G <--> K
+    G <--> L
+    
+    style A fill:#E3F2FD
+    style B fill:#E3F2FD
+    style C fill:#E3F2FD
+    style D fill:#FFF3E0
+    style E fill:#F3E5F5
+    style F fill:#E8F5E9
+    style G fill:#FFEBEE
+    style H fill:#2196F3
+    style I fill:#4CAF50
+    style J fill:#FFC107
+    style K fill:#FFC107
+    style L fill:#FFC107
