@@ -1,4 +1,6 @@
-# OpenClaw开源项目分类报告
+# OpenClaw Hub
+
+OpenClaw相关资源，包括开源工程、调研报告、新闻
 
 ## 概述
 
