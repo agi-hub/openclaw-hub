@@ -364,6 +364,7 @@ The Security & Privacy category focuses on enhancing OpenClaw's security and pro
 |---------|------|--------|-----|------|--------|
 | slopus/murmur | Encrypted Messaging for OpenClaw | 53 | https://github.com/slopus/murmur | TypeScript | slopus |
 | knostic/openclaw-detect | Detection scripts for MDM deployment to identify OpenClaw installations on managed devices. | 49 | https://github.com/knostic/openclaw-detect | Shell | knostic |
+| soul-upload.com | Encrypted backup storage for OpenClaw workspace artifacts (SOUL.md, MEMORY.md, etc.) with client-side AES-256-CBC encryption | - | https://soul-upload.com | Web Service | - |
 
 ---
 
