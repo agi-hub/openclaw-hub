@@ -227,6 +227,7 @@ The Monitoring & Observability category provides tools for monitoring OpenClaw's
 | Project Name | Description | Stars | URL | Language | Owner |
 |---------|------|--------|-----|------|--------|
 | luccast/crabwalk | 🦀 Crabwalk 🦀 Real-time companion monitor for OpenClaw agents. | 749 | https://github.com/luccast/crabwalk | TypeScript | luccast |
+| mnfst/manifest | Real-time cost observability for OpenClaw agents — track tokens, costs, messages, and model usage with a local-first dashboard. Supports 28+ LLM models, OTLP ingestion, self-hosted. | 3300 | https://github.com/mnfst/manifest | TypeScript | mnfst |
 
 ---
 
